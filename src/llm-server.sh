@@ -1,0 +1,2 @@
+#!/bin/bash
+python3 -m vllm.entrypoints.openai.api_server --model "hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4" --served-model-name "base" --quantization awq --gpu-memory-utilization 0.8 --enforce-eager

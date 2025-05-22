@@ -1,0 +1,49 @@
+2024-11-01 05:41:10.944965: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-11-01 05:41:10.961937: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:485] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-11-01 05:41:10.983371: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:8454] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-11-01 05:41:10.989989: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1452] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-11-01 05:41:11.005526: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-11-01 05:41:12.206521: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-11-01 05:42:32.643 | INFO     | __main__:<module>:90 - Using FasterWhisperEngine
+ * Serving Flask app 'asr-server'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8001
+ * Running on http://172.28.0.12:8001
+[33mPress CTRL+C to quit[0m
+2024-11-01 05:42:56.990 | INFO     | __main__:transcribe:40 -  Hola, ¿cómo estás? Yo estoy muy bien.
+127.0.0.1 - - [01/Nov/2024 05:42:56] "POST /inference HTTP/1.1" 200 -
+2024-11-01 05:51:28.353 | INFO     | __main__:transcribe:40 - 
+127.0.0.1 - - [01/Nov/2024 05:51:28] "POST /inference HTTP/1.1" 200 -
+2024-11-01 05:51:46.895 | INFO     | __main__:transcribe:40 - 
+127.0.0.1 - - [01/Nov/2024 05:51:46] "POST /inference HTTP/1.1" 200 -
+2024-11-01 05:51:51.695 | INFO     | __main__:transcribe:40 - 
+127.0.0.1 - - [01/Nov/2024 05:51:51] "POST /inference HTTP/1.1" 200 -
+2024-11-01 05:52:03.838 | INFO     | __main__:transcribe:40 - 
+127.0.0.1 - - [01/Nov/2024 05:52:03] "POST /inference HTTP/1.1" 200 -
+2024-11-01 05:52:12.775 | INFO     | __main__:transcribe:40 - 
+127.0.0.1 - - [01/Nov/2024 05:52:12] "POST /inference HTTP/1.1" 200 -
+2024-11-01 05:52:22.703 | INFO     | __main__:transcribe:40 - 
+127.0.0.1 - - [01/Nov/2024 05:52:22] "POST /inference HTTP/1.1" 200 -
+2024-11-01 06:00:15.324 | INFO     | __main__:transcribe:40 - 
+127.0.0.1 - - [01/Nov/2024 06:00:15] "POST /inference HTTP/1.1" 200 -
+2024-11-01 06:00:26.423 | INFO     | __main__:transcribe:40 - 
+127.0.0.1 - - [01/Nov/2024 06:00:26] "POST /inference HTTP/1.1" 200 -
+2024-11-01 06:00:37.168 | INFO     | __main__:transcribe:40 - 
+127.0.0.1 - - [01/Nov/2024 06:00:37] "POST /inference HTTP/1.1" 200 -
+2024-11-01 06:00:45.766 | INFO     | __main__:transcribe:40 - 
+127.0.0.1 - - [01/Nov/2024 06:00:45] "POST /inference HTTP/1.1" 200 -
+2024-11-01 06:02:51.780 | INFO     | __main__:transcribe:40 - 
+127.0.0.1 - - [01/Nov/2024 06:02:51] "POST /inference HTTP/1.1" 200 -
+2024-11-01 06:06:30.093 | INFO     | __main__:transcribe:40 - 
+127.0.0.1 - - [01/Nov/2024 06:06:30] "POST /inference HTTP/1.1" 200 -
+2024-11-01 06:06:38.986 | INFO     | __main__:transcribe:40 - 
+127.0.0.1 - - [01/Nov/2024 06:06:38] "POST /inference HTTP/1.1" 200 -
+2024-11-01 06:12:09.031 | INFO     | __main__:transcribe:40 -  Hablando de buenos días, ¿cómo estás?
+127.0.0.1 - - [01/Nov/2024 06:12:09] "POST /inference HTTP/1.1" 200 -
+2024-11-01 06:12:32.723 | INFO     | __main__:transcribe:40 -  Hola, me llamo Abel Hernández.
+127.0.0.1 - - [01/Nov/2024 06:12:32] "POST /inference HTTP/1.1" 200 -
+2024-11-01 06:12:45.589 | INFO     | __main__:transcribe:40 - 
+127.0.0.1 - - [01/Nov/2024 06:12:45] "POST /inference HTTP/1.1" 200 -

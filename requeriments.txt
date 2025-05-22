@@ -1,0 +1,16 @@
+twilio==9.2.3
+transformers==4.45.1
+accelerate==0.33.0
+ctranslate2==4.4.0
+faster-whisper==1.0.3
+ngrok==1.4.0
+python-dotenv==1.0.1
+flask_sock==0.7.0
+pydub==0.25.1
+loguru==0.7.2
+espeakng==1.0.3
+librosa==0.10.2
+vllm==0.6.2
+openai==1.51.0
+soundfile==0.12.1
+coqui-tts
